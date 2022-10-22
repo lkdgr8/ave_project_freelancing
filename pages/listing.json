@@ -1,0 +1,17 @@
+[
+{
+"name": "Header",
+"description": "Header Description",
+"component": "HeaderComponent"
+},
+{
+"name": "Footer",
+"description": "Footer Description",
+"component": "FooterComponent"
+},
+{
+"name": "Hero Banner",
+"description": "Banner Description",
+"component": "BannerComponent"
+}
+]

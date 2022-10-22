@@ -1,0 +1,30 @@
+.background {
+ padding: 1rem;
+ display: grid;
+ grid-template-columns: 4fr 1fr;
+}
+
+.componentView {
+	height: 100vh;
+	width: 100%;
+	padding: 1rem;
+}
+
+.sideBar {
+	padding: 1rem;
+	background-color: #f1f1f1;
+}
+
+.sideBarFooter {
+ position: absolute;
+ bottom: 10px;
+ font-size: 15px
+}
+
+@media screen and (max-width: 600px) {
+.background {
+ padding: 0.5rem;
+ display: block;
+
+}
+}

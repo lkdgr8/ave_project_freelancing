@@ -1,0 +1,129 @@
+
+.about{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.content{
+    font-size: 25px;
+    padding: 0px 50px;
+    text-align: justify;
+    font-family: 'Mouse Memoirs', sans-serif;
+
+}
+
+.img{
+    text-align: center;
+}
+
+.img2{
+    width: 35%;
+}
+
+.img3{
+    width: 35%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.secondpyramid{
+   margin-bottom: 20px;
+}
+
+.thirdpyramid img{
+    width: 30%;
+    height: 350px;
+}
+
+.thirdpyramid{
+    padding-bottom: 30px;
+}
+
+.cardimages img{
+    width: 100%;
+    height: 300px;
+}
+
+.cardimages{
+    width: 100%;
+    margin-bottom: 100px;
+
+
+    
+}
+
+.containcardimage{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+ 
+
+}
+
+.card{
+    width: 28%;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 10px;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.text{
+    padding: 0px 25px;
+    /* background: rgb(1, 1, 65); */
+}
+
+.text p{
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+}
+
+.text h2{
+    font-family: 'Lobster', cursive;
+}
+
+.body{
+    width: 100%;
+    overflow: auto;
+}
+
+@media (max-width: 480px) {
+   .body{
+      overflow-X: hidden;
+   }
+   .firstimage {
+      width: 100%;
+   }
+   .containcardimage{
+      display: block;
+   }
+   .cardimages{
+    width: 80%;
+    margin: 0 auto;
+   }
+   .card{
+     width: 100%;
+     margin: 0;
+     padding: 0;
+   }
+   .secondpyramid img{
+      display: block;
+      width: 90%;
+      padding: 0;
+      margin: 10px auto;
+   }
+   .img3{
+      margin-top: 20px !important;
+   }
+   .thirdpyramid img{
+      display: block;
+      width: 90%;
+      padding: 0;
+      margin: 10px auto;
+   }
+}
